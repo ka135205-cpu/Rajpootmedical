@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { createClient } from '@/lib/supabase/client';
-import { refreshProductCache, getDB } from '@/lib/offline/db';
+import { getDB } from '@/lib/offline/db';
+import { refreshProductCache } from '@/lib/offline/queue';
 
 export interface CatalogEntry {
   productId: string;
