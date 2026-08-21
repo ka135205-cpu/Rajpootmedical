@@ -79,7 +79,7 @@ export function ReturnForm({ saleId, items }: { saleId: string; items: Returnabl
     <form onSubmit={handleSubmit} className="space-y-3 rounded-lg border border-slate-200 bg-slate-50 p-4">
       <p className="text-xs text-slate-500">
         A cashier-initiated return needs owner approval before stock is restocked. An
-        owner's return is approved and restocked immediately.
+        owner&apos;s return is approved and restocked immediately.
       </p>
 
       {returnable.map((item) => (
