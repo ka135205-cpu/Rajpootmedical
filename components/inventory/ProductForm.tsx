@@ -190,7 +190,7 @@ export function ProductForm({
           className="w-full max-w-[160px] rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500"
         />
         <p className="mt-1 text-xs text-slate-400">
-          Product is flagged "Low Stock" once quantity falls below this number.
+          Product is flagged &quot;Low Stock&quot; once quantity falls below this number.
         </p>
       </div>
 
